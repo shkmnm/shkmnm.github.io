@@ -1,11 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:antiquewhite;
-
-
+    background-color:ghostwhite;
 }
-
 body{
     margin: 0 auto;
 }
@@ -85,12 +82,13 @@ a{
     width: 600px;
     height: 800px;
     border-radius: 5%;
-    padding-left:250px;
-    padding-top:20px;
+    padding-left:200px;
+    padding-top: 30px;
 }
 .position{
     position: relative;
     padding-bottom: 10px;
+    margin-top: 30px;
 }
 
 .salem{
@@ -121,7 +119,7 @@ a{
     top: 800px;
     line-height: 30px;
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 30px;
 }
 .photo_3{
     position: absolute;
@@ -135,7 +133,7 @@ a{
 .photo_4{
     margin-left:100px;
     border-radius: 10%;
-    width: 450px;
+    width: 500px;
     height: 500px;
 }
 .dlyaspan_3{
@@ -143,7 +141,7 @@ a{
     left: 550px;
     bottom: 20px;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 30px;
 
 }
 .ph{
@@ -156,7 +154,7 @@ a{
 }
 .ph_2{
     border-radius: 16%;
-    width:260px;
+    width:250px;
     height: 100px;
     padding: 20px;
 }
