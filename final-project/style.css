@@ -113,6 +113,26 @@ body{
     font-size: 18px;
 
 }
+.ph{
+    border-radius: 10%;
+    width: 42%;
+    padding: 20px;
+}
+.phdiv{
+    text-align: center;
+}
+.ph_2{
+    border-radius: 16%;
+    width:260px;
+    height: 100x;
+    padding: 20px;
+}
+.phdiv_2{
+    text-align: center;
+}
+.phdiv_3{
+    text-align: center;
+}
 
 
 
