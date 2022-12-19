@@ -7,7 +7,6 @@ document.querySelector('#menu-bar').onclick = () =>{
 document.querySelector('#close').onclick = () =>{
     navbar.classList.remove('active');
 }
-
 window.onscroll = () =>{
 
     navbar.classList.remove('active');
