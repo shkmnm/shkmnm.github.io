@@ -194,6 +194,74 @@ footer {
 .lola{
     display:flex;
 }
+.activ{
+    text-decoration: none;
+    color:white;
+}
+.button {
+    border:none;
+    background-color: orange;
+    color: white ;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:800px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50%;
+    height:50px;
+    margin-top:110px;
+
+}
+.button:hover {background-color: #696969}
+
+.button:active {
+    background-color:orange;
+    box-shadow: 0 5px #696969 ;
+    transform: translateY(4px);
+}
+input[type=text] {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius:50%;
+    height: 50px;
+}
+.web{
+    display:flex;
+    margin-top:130px;
+    margin-left:80px;
+}
+.block {
+    display: block;
+    width: 100%;
+    padding: 15px 100px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align:center;
+    border-radius: 100px;
+    text-decoration: none;
+    background-color: grey;
+
+
+}
+
+.block3{
+    display: block;
+    width: 80%;
+    background-color:orange;
+    padding: 15px 100px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align:center;
+    border-radius: 100px;
+    text-decoration: none;
+    border:1px solid orange;
+}
 
 
 
