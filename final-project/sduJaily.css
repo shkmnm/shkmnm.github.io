@@ -424,7 +424,7 @@ body .options .option.active {
     flex-grow: 10000;
     transform: scale(1);
     max-width: 600px;
-    margin: 0px;
+    margin: 0;
     border-radius: 40px;
     background-size: auto 100%;
     /*&:active {
@@ -469,8 +469,8 @@ body .options .option:not(.active) .label .info>div {
 body .options .option .shadow {
     position: absolute;
     bottom: 0;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     height: 120px;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
@@ -478,7 +478,7 @@ body .options .option .shadow {
 body .options .option .label {
     display: flex;
     position: absolute;
-    right: 0px;
+    right: 0;
     height: 40px;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
