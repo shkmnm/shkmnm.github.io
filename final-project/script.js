@@ -1,20 +1,20 @@
 let navbar = document.querySelector('.navbar')
 
-document.querySelector('#menu-bar').onclick = () =>{
+document.querySelector('#menu-bar').onclick = () => {
     navbar.classList.toggle('active');
 }
 
-document.querySelector('#close').onclick = () =>{
+document.querySelector('#close').onclick = () => {
     navbar.classList.remove('active');
 }
 
-window.onscroll = () =>{
+window.onscroll = () => {
 
     navbar.classList.remove('active');
 
-    if(window.scrollY > 100){
+    if (window.scrollY > 100) {
         document.querySelector('header').classList.add('active');
-    }else{
+    } else {
         document.querySelector('header').classList.remove('active');
     }
 
@@ -22,36 +22,36 @@ window.onscroll = () =>{
 
 let themeToggler = document.querySelector('#theme-toggler');
 
-themeToggler.onclick = () =>{
+themeToggler.onclick = () => {
     themeToggler.classList.toggle('fa-sun');
-    if(themeToggler.classList.contains('fa-sun')){
+    if (themeToggler.classList.contains('fa-sun')) {
         document.querySelector('body').classList.add('active');
-    }else{
+    } else {
         document.querySelector('body').classList.remove('active');
     }
 }
 
-document.querySelectorAll('.small-image-1').forEach(images =>{
-    images.onclick = () =>{
+document.querySelectorAll('.small-image-1').forEach(images => {
+    images.onclick = () => {
         document.querySelector('.big-image-1').src = images.getAttribute('src');
     }
 });
 
-document.querySelectorAll('.small-image-2').forEach(images =>{
-    images.onclick = () =>{
+document.querySelectorAll('.small-image-2').forEach(images => {
+    images.onclick = () => {
         document.querySelector('.big-image-2').src = images.getAttribute('src');
     }
 });
 
-document.querySelectorAll('.small-image-3').forEach(images =>{
-    images.onclick = () =>{
+document.querySelectorAll('.small-image-3').forEach(images => {
+    images.onclick = () => {
         document.querySelector('.big-image-3').src = images.getAttribute('src');
     }
 });
 
 let countDate = new Date('aug 1, 2021 00:00:00').getTime();
 
-function countDown(){
+function countDown() {
 
     let now = new Date().getTime();
     gap = countDate - now;
@@ -73,13 +73,13 @@ function countDown(){
 
 }
 
-setInterval(function(){
+setInterval(function () {
     countDown()
-},1000);
+}, 1000);
 
 var swiper = new Swiper(".product-slider", {
     slidesPerView: 3,
-    loop:true,
+    loop: true,
     spaceBetween: 10,
     autoplay: {
         delay: 4000,
@@ -107,7 +107,7 @@ var swiper = new Swiper(".product-slider", {
 
 var swiper = new Swiper(".review-slider", {
     slidesPerView: 3,
-    loop:true,
+    loop: true,
     spaceBetween: 10,
     autoplay: {
         delay: 4000,
