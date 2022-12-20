@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meню для сайта</title>
+  <link rel="stylesheet" href="Nuray.css">
+</head>
+<body>
+<div id="sidebar">
+  <div class="toggle-btn" onclick="openMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul>
+    <li><a href=/">Menu Saita</a></li>
+    <li><a href=/">Biz zhaily</a></li>
+    <li><a href=/">SDU zhaily</a></li>
+    <li><a href=/">Toptama</a></li>
+    <li><a href=/">Jenildikter</a></li>
+    <li><a href=/">Bailanys telephony</a></li>
+    <li><a href=/">Instagram</a></li>
+  </ul>
+</div>
+
+
+<script>
+  function openMenu() {
+    document.getElementById("sidebar").classList.toggle('active');
+  }
+</script>
