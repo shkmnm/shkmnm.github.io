@@ -1,11 +1,13 @@
-body{
+body {
     margin: 0 auto;
 }
-a{
-    color:#000000;
+
+a {
+    color: #000000;
     text-decoration: none;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     padding: 0.5px;
@@ -17,30 +19,34 @@ a{
     left: 0;
     z-index: 99;
 }
-.header_section{
+
+.header_section {
     display: flex;
     align-items: center;
     padding-left: 70px;
     font-size: 90px;
-    color:darkblue;
+    color: darkblue;
 }
 
-.header-atem:hover{
+.header-atem:hover {
     color: #0040ff;
 }
-.header_item{
+
+.header_item {
     padding: 0.1vh 4vh;
     font-size: 2.6vh;
 }
-.header_aline{
+
+.header_aline {
     font-size: 3.2vh;
     padding-right: 22vh;
 }
 
-.header_aline2{
+.header_aline2 {
     font-size: 2.6vh;
     padding-left: 22vh;
 }
+
 @import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css);
 
 :root {
@@ -213,7 +219,7 @@ body #user-button .u-icons a.u-random:not(:hover) div {
     animation-play-state: paused;
 }
 
-body #user-button .u-icons>* {
+body #user-button .u-icons > * {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -224,74 +230,74 @@ body #user-button .u-icons>* {
     transition: 0.25s -0.05s;
 }
 
-body #user-button .u-icons>*:before {
+body #user-button .u-icons > *:before {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-body #user-button .u-icons>*:hover,
-body #user-button .u-icons>*:focus-within {
+body #user-button .u-icons > *:hover,
+body #user-button .u-icons > *:focus-within {
 
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(1):nth-child(1),
-body #user-button .u-icons>*:first-child:nth-last-child(1)~*:nth-child(1) {
+body #user-button .u-icons > *:first-child:nth-last-child(1):nth-child(1),
+body #user-button .u-icons > *:first-child:nth-last-child(1) ~ *:nth-child(1) {
     left: 25%;
     top: 25%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(2):nth-child(1),
-body #user-button .u-icons>*:first-child:nth-last-child(2)~*:nth-child(1) {
+body #user-button .u-icons > *:first-child:nth-last-child(2):nth-child(1),
+body #user-button .u-icons > *:first-child:nth-last-child(2) ~ *:nth-child(1) {
     left: 37.5%;
     top: 18.75%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(2):nth-child(2),
-body #user-button .u-icons>*:first-child:nth-last-child(2)~*:nth-child(2) {
+body #user-button .u-icons > *:first-child:nth-last-child(2):nth-child(2),
+body #user-button .u-icons > *:first-child:nth-last-child(2) ~ *:nth-child(2) {
     left: 18.75%;
     top: 37.5%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(3):nth-child(1),
-body #user-button .u-icons>*:first-child:nth-last-child(3)~*:nth-child(1) {
+body #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(1),
+body #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(1) {
     left: 50%;
     top: 15.625%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(3):nth-child(2),
-body #user-button .u-icons>*:first-child:nth-last-child(3)~*:nth-child(2) {
+body #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(2),
+body #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(2) {
     left: 25%;
     top: 25%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(3):nth-child(3),
-body #user-button .u-icons>*:first-child:nth-last-child(3)~*:nth-child(3) {
+body #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(3),
+body #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(3) {
     left: 15.625%;
     top: 50%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(4):nth-child(1),
-body #user-button .u-icons>*:first-child:nth-last-child(4)~*:nth-child(1) {
+body #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(1),
+body #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(1) {
     left: 62.5%;
     top: 18.75%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(4):nth-child(2),
-body #user-button .u-icons>*:first-child:nth-last-child(4)~*:nth-child(2) {
+body #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(2),
+body #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(2) {
     left: 37.5%;
     top: 18.75%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(4):nth-child(3),
-body #user-button .u-icons>*:first-child:nth-last-child(4)~*:nth-child(3) {
+body #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(3),
+body #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(3) {
     left: 18.75%;
     top: 37.5%;
 }
 
-body #user-button .u-icons>*:first-child:nth-last-child(4):nth-child(4),
-body #user-button .u-icons>*:first-child:nth-last-child(4)~*:nth-child(4) {
+body #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(4),
+body #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(4) {
     left: 18.75%;
     top: 62.5%;
 }
@@ -441,7 +447,7 @@ body .options .option.active .label {
     left: 20px;
 }
 
-body .options .option.active .label .info>div {
+body .options .option.active .label .info > div {
     left: 0;
     opacity: 1;
 }
@@ -461,7 +467,7 @@ body .options .option:not(.active) .label {
     left: 10px;
 }
 
-body .options .option:not(.active) .label .info>div {
+body .options .option:not(.active) .label .info > div {
     left: 20px;
     opacity: 0;
 }
@@ -504,7 +510,8 @@ body .options .option .label .info {
     color: white;
     white-space: pre;
 }
-body .options .option .label .info>div {
+
+body .options .option .label .info > div {
     position: relative;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
 }
