@@ -18,7 +18,6 @@ a{
     justify-content: space-between;
     padding: 0.5px;
     background: #ffffff;
-    border-radius: 3vh;
     position: fixed;
     width: 100%;
     top: 0;
@@ -41,11 +40,18 @@ a{
 .header_aline{
     font-size: 3.2vh;
     padding-right: 22vh;
+    color: darkblue;
+    font-family: Franklin Gothic Medium;
+    padding-left: 50px;
+
 }
 
 .header_aline2{
     font-size: 2.6vh;
-    padding-left: 22vh;
+    padding-left: 25px;
+    color: darkblue;
+    font-family: Franklin Gothic Medium;
+    font-size: 23px;
 }
 
 
@@ -79,15 +85,19 @@ a{
     width: 600px;
     height: 800px;
     border-radius: 5%;
+    padding-left:250px;
+    padding-top:20px;
 }
 .position{
     position: relative;
+    padding-bottom: 10px;
 }
 
 .salem{
     position: absolute;
     top: 100px;
     left: 100px;
+    padding-bottom: 10px;
 }
 .dlyaspan{
     position: absolute;
@@ -209,7 +219,7 @@ a{
 footer {
     text-align: center;
 
-    background-color:  #696969;
+    background-color:black;
     color:white;
     text-decoration: none;
     height:290px;
@@ -380,6 +390,8 @@ input[type=text] {
 section{
     padding:2rem 9%;
 }
+
+
 
 
 
