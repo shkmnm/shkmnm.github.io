@@ -9,8 +9,9 @@
   <script src="alkijs.js"></script>
 </head>
 <body>
+
 <div class="registration" id= "registration">
-  <h1>Register</h1>
+  <h1>Satyp alu</h1>
   <p>Satyp algyn kelse,toltyryp o't!</p>
   <hr>
   <div class="container">
@@ -36,15 +37,14 @@
     </div>
     <label for="name"><b>Qandai razmer?</b></label>
     <input class="input" id = "username" type="text" name = "username" placeholder="XL/L/M" required >
-
-
     <label for="email"><b>Email</b></label>
     <input class="input" id = "email" type="text" name = "email" placeholder="Enter Email" required >
 
   </div>
 
   <div class="regButtons">
-    <button type="submit" class="registerbtn" onclick="regPhp(username.value, email.value, password1.value, password2.value)">Satyp Alamyn</button>
+    <button type="submit" class="registerbtn" onclick="regPhp(username.value, email.value, password1.value, password2.value)">Satyp alamyn</button>
+    <button type="submit" class="sign" onclick="login()">Kiru</button>
   </div>
 
 </div>
@@ -67,6 +67,7 @@
 </div>
 
 <div class="profile" id = "profile">
+  <img src="ava.jpg" alt="">
   <p id = "user's_Name"></p>
   <p id = "user's_Surname"></p>
   <p id = "user's_gender"></p>

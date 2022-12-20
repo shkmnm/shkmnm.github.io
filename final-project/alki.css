@@ -1,9 +1,8 @@
 body{
     margin:0;
     padding: 0;
-    background-color:darkkhaki;
+    background-color:pink;
     background-image: linear-gradient(90deg, white 0%, black 100%);
-
     color:  #ff6b1c;
 }
 .registration{
@@ -57,14 +56,14 @@ body{
 
 .registerbtn {
     height: 50px;
-    background-color: #ff6b1c;
+    background-color:hotpink;
     border-radius: 10px;
     border: none;
     width: 30%;
 }
 .sign{
     height: 50px;
-    background-color: #ff6b1c;
+    background-color: hotpink;
     border-radius: 10px;
     border: none;
     width: 30%;
@@ -92,7 +91,7 @@ body{
 
 .signOut{
     height: 50px;
-    background-color: #ff6b1c;
+    background-color:hotpink;
     border-radius: 10px;
     border: none;
     width: 30%;
