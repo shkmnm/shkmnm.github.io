@@ -1,0 +1,40 @@
+@media only screen and (max-width:640px) {
+    .navbar navbar-expand-lg{
+        width: 458px;
+    }
+    .row{
+        width: 100%;
+        height: 100px;
+    }
+    .containerr{
+        height: 400px;
+        margin-top: 159px;
+    }
+
+    .mv{
+        width: 100%;
+        height:auto;
+        display: block;
+
+    }
+    .te{
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .vi{
+        max-width: 40%;
+        max-height: 50px;
+
+    }
+    #er{
+        max-height: 130px;
+        margin-bottom: 40px;
+    }
+    .tan{
+        margin-bottom: 270px;
+
+    }
+
+
+}
